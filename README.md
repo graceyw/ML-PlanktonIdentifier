@@ -1,8 +1,8 @@
-# Identifying Planktons with Machine Learning
+# Identifying Types of Plankton with Machine Learning
 
 ## What is this?
 #### Determine application and data set
-We aim to build a machine learning model that identifies microplastics from images
+We developed a machine learning model that identifies the kind of plankton displayed in an image. To train our convolutional neural network, we used a dataset of over 200,000 images of 65 kinds of plankton, which we got from the Woods Hole Oceanographic Institute's Open Access Server. The dataset can be found [here](https://darchive.mblwhoilibrary.org/handle/1912/7341).
 
 ## Why does it matter?
 Microplastics end up in the ocean and can potentially get into our food
