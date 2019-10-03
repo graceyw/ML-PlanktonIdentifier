@@ -1,4 +1,4 @@
-# Identifying Microplastics with Machine Learning
+# Identifying Planktons with Machine Learning
 
 ## What is this?
 #### Determine application and data set
