@@ -19,7 +19,4 @@ Every model has limitations. Here are a few important ones to acknowledge:
 - Images were all collected in the same location (by Martha's Vineyard, MA, USA) 
 - Data is organized by year ...
 
-#### Limitations of the model:
-- 
-
 #### Understand the source of your data (see project description on github for some good starter questions about the source and who labeled, etc.)
