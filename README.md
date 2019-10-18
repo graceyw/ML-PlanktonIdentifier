@@ -10,7 +10,7 @@ About 80 percent of the world's oxygen is produced by plankton [EOS] (https://eo
 Every model has limitations. Here are a few important ones to acknowledge before we get into how it works:
 - The images we used were all collected in the same location (by Martha's Vineyard, MA, USA).
 - The data is organized by year and we only used one year (2014, the most recent).
-- In the original dataset, the images are all different sizes, and variations in image dimensions are often correlated with the type of plankton in the image. While we did do some [preprocessing]() in order to make all the images the same size without changing their aspect ratios, we saw through our [visualization of a layer]() that the model still seems to pick up on the original size difference. This means it may be doing its classifications based in part on correlations within the image dimensions, instead of purely what’s in the image.
+- In the original dataset, the images are all different sizes, and variations in image dimensions are often correlated with the type of plankton in the image. While we did do some [preprocessing](#preprocessing) in order to make all the images the same size without changing their aspect ratios, we saw through our [visualization of a layer](visualizing-an-activation-gradient) that the model still seems to pick up on the original size difference. This means it may be doing its classifications based in part on correlations within the image dimensions, instead of purely what’s in the image.
 
 ## How does it work?
 
