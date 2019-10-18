@@ -28,8 +28,9 @@ In the development of our neural net, we managed to obtain an 87% accuracy on th
 ![alt text](final_run.png)
 
 #### Visualizing an Activation Gradient
-In order to get a snapshot of our model at work, we decided to create a visualization. Here we extracted the primary layer of the sample image and compare the activation gradient, the original image, and the activation gradient times the image. As mentioned in the [important considerations section](), this visualization illuminated how the model picked up on the original dimensions of the images, rendering our preprocessing potentially less impactful than we had hoped. There is a possible next step here, discussed in the next section. 
+In order to get a snapshot of our model at work, we decided to create a visualization. Here we extracted the primary layer of the sample image and compare the activation gradient, the original image, and the activation gradient times the image. As mentioned in the [important considerations section](important-considerations), this visualization illuminated how the model picked up on the original dimensions of the images, rendering our preprocessing potentially less impactful than we had hoped. There is a possible next step here, discussed in the next section. 
 
+![alt text](visualization.png)
 ## Possible Next Steps
 - Expanding to more categories of plankton (right now we're only working with 9, but there are over 50 types cataloged in the 2014 dataset alone). This would be more challenging because we chose to work with the plankton with the most images (at least 1000) but many categories of plankton had orders of magnitude less than that.
 - Expanding to additional year's datasets (we worked with 2014 and expanded to 2013, but there are datasets dating back to 2006)
