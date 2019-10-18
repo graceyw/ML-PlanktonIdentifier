@@ -14,6 +14,8 @@ Every model has limitations. Here are a few important ones to acknowledge before
 
 ## How does it work?
 
+### See full code [here](https://colab.research.google.com/drive/1BG39aylWDRqV6SyphJccmw0adh5yvVE0)!
+
 #### Preprocessing
 First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year and then by category within year. To downsample the data, we chose to start with the most recent dataset, which was from 2014, and selected the 9 categories of plankton with the most images to make our model as strong as possible. 
 
@@ -32,7 +34,7 @@ In the development of our neural net, we managed to obtain an 87% accuracy on th
 ##### *Visualization of our training losses over 8 epochs.*
 
 #### Visualizing an Activation Gradient
-In order to get a snapshot of our model at work, we decided to create a visualization. Here we extracted the primary layer of the sample image and compare the activation gradient, the original image, and the activation gradient times the image. As mentioned in the [important considerations section](#important-considerations), this visualization illuminated how the model picked up on the original dimensions of the images, rendering our preprocessing potentially less impactful than we had hoped. There is a possible next step here, discussed in the next section. 
+In order to get a snapshot of our model at work, we decided to create a visualization. Here we extracted the primary layer of the sample image and compare the original image, the activation gradient times the image, and the activation gradient on its own. As mentioned in the [important considerations section](#important-considerations), this visualization illuminates how the model picked up on the original dimensions of the images, rendering our preprocessing potentially less impactful than we had hoped. There is a possible next step here, discussed in the next section. 
 
 ![alt text](example_image.png) ![alt text](activation_times_image.png) ![alt text](activation_gradient.png)
 ##### *Example image, activation gradient times the image, and the activation gradient.*
