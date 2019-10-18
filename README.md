@@ -7,22 +7,21 @@ We developed a machine learning model that identifies the kind of plankton displ
 ## Why does it matter?
 About half of the world's oxygen is produced by plankton. Plankton is at the center of many climate change researchers' projects of how to reduce carbon in the earth's atmosphere. Understanding what kinds of plankton appear in different parts of the world at various times of the year could contribute to this important research.
 
+## Important considerations
+Every model has limitations. Here are a few important ones to acknowledge before we get into how it works:
+- The images we used were all collected in the same location (by Martha's Vineyard, MA, USA)
+- The data is organized by year and we only used one year (2014, the most recent)
+
 ## How does it work?
 
-#### Preprocessing: 
-First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year 
-(look at some images and create some visualizations to understand your data). You will very likely need to downsample your images.
+#### Preprocessing
+First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year and decided to start with the most recent dataset, which was from 2014. We then looked through and downsampled 
 
 #### Convolutional Neural Network 
 
 #### Analyzing Our Success
 
 #### Visualizing an Activation Gradient
-
-## Important considerations
-Every model has limitations. Here are a few important ones to acknowledge:
-- Images were all collected in the same location (by Martha's Vineyard, MA, USA)
-- Data is organized by year and we're only using the most recent years
 
 ## Possible Next Steps
 - Expanding to more categories of plankton (right now we're only working with 9, but there are over 50 types cataloged in the 2014 dataset alone)
