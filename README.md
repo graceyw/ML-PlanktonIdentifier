@@ -15,7 +15,7 @@ Every model has limitations. Here are a few important ones to acknowledge before
 ## How does it work?
 
 #### Preprocessing
-First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year and decided to start with the most recent dataset, which was from 2014. We then looked through and downsampled 
+First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year and then by category within year. We chose to start with the most recent dataset, which was from 2014, and picked the 9 categories of plankton with the most images, to give our dataset the We then looked through and found the types of  downsampled the 
 
 #### Convolutional Neural Network 
 
@@ -24,6 +24,6 @@ First we spent some time exploring and preprocessing the dataset. We found that 
 #### Visualizing an Activation Gradient
 
 ## Possible Next Steps
-- Expanding to more categories of plankton (right now we're only working with 9, but there are over 50 types cataloged in the 2014 dataset alone)
+- Expanding to more categories of plankton (right now we're only working with 9, but there are over 50 types cataloged in the 2014 dataset alone). This would be more challenging because we chose to work with the plankton with the most images (at least 1000) but many categories of plankton had orders of magnitude less than that.
 - Expanding to additional year's datasets (we worked with 2014 and expanded to 2013, but there there are datasets dating back to 2006)
 - If there were timestamps on the data, it could be interesting to analyze how types of plankton vary seasonally
