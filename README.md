@@ -25,6 +25,8 @@ In our model, we take the preprocessed data and randomly differentiate it into t
 #### Analyzing Our Success
 In the development of our neural net, we managed to obtain an 87% accuracy on the testing set for the 9 categories of plankton in less than 400 seconds, down from from around 900 seconds. To do this we utilized caching our image folders and drawing to eliminate time spent pulling the data from a pytorch ImageFolder. Through looking into the validation loss between the epochs, we determined that we could stop the training at 5 epochs. Additional training does not seem to decrease the accuracy of our testing data however. Below is our training losses over the total of 8 epochs.
 
+![alt text](final_run.png)
+
 #### Visualizing an Activation Gradient
 In order to get a snapshot of our model at work, we decided to create a visualization. Here we extracted the primary layer of the sample image and compare the activation gradient, the original image, and the activation gradient times the image. As mentioned in the [important considerations section](), this visualization illuminated how the model picked up on the original dimensions of the images, rendering our preprocessing potentially less impactful than we had hoped. There is a possible next step here, discussed in the next section. 
 
