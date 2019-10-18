@@ -14,7 +14,7 @@ Every model has limitations. Here are a few important ones to acknowledge before
 
 ## How does it work?
 
-### See full code [here](https://colab.research.google.com/drive/1BG39aylWDRqV6SyphJccmw0adh5yvVE0){:target="_blank"}!
+### See full code [here](https://colab.research.google.com/drive/1BG39aylWDRqV6SyphJccmw0adh5yvVE0)!
 
 #### Preprocessing
 First we spent some time exploring and preprocessing the dataset. We found that the data is organized by year and then by category within year. To downsample the data, we chose to start with the most recent dataset, which was from 2014, and selected the 9 categories of plankton with the most images to make our model as strong as possible. 
